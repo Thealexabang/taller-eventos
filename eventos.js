@@ -2,8 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
    
     const boton= document.getElementById('boton');
 
-    boton.addEventListener("click", function(){
-        Event.stopPropagation();
+    boton.addEventListener("dblclick", function(){
         alert("Hola! Soy el div");
     });
 
